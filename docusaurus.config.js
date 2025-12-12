@@ -40,7 +40,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       title: 'Physical AI & Humanoid Robotics Textbook',
       logo: {
         alt: 'PAIHR Logo',
-        src: 'img/robot-icon.svg',
+        src: 'img/logo.svg',
       },
       items: [
         { type: 'doc', docId: 'introduction', position: 'left', label: 'Textbook' },
