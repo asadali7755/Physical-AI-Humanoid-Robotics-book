@@ -7,6 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'Physical AI & Humanoid Robotics',
   tagline: 'A Comprehensive Textbook on Physical AI and Humanoid Robotics',
   url: 'https://your-vercel-domain.vercel.app', // Updated for Vercel deployment
+  url: '/', // Updated for Vercel deployment
   baseUrl: '/', // Changed from '/physical-ai-humanoid-robotics-textbook/' to '/' for Vercel root deployment
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'ignore',
