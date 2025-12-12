@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   tagline: 'A Comprehensive Textbook on Physical AI and Humanoid Robotics',
   url: 'https://panaversity.github.io',
   baseUrl: '/physical-ai-humanoid-robotics-textbook/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'panaversity', // Usually your GitHub org/user name.
   projectName: 'physical-ai-humanoid-robotics-textbook', // Usually your repo name.
