@@ -28,6 +28,7 @@ module.exports = {
           editUrl:
             'https://github.com/asadali7755/Physical-AI-Humanoid-Robotics-book/edit/main/',
           routeBasePath: '/', // ✅ correct for textbook-style site
+          homePageId: 'introduction',
         },
         blog: false,
         theme: {
