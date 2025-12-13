@@ -1,5 +1,5 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer').themes.github;
+const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
   // 🔴 IMPORTANT: yahan apna Vercel project URL lagao
   url: 'https://physical-ai-humanoid-robotics-book.vercel.app',
   baseUrl: '/',
-  trailingSlash: false,
+  trailingSlash: undefined, // Let Docusaurus decide
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -27,8 +27,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/asadali7755/Physical-AI-Humanoid-Robotics-book/edit/main/',
-          routeBasePath: '/', // ✅ correct for textbook-style site
-          homePageId: 'introduction',
+          routeBasePath: '/', // Back to the original to make docs root
         },
         blog: false,
         theme: {
@@ -51,6 +50,7 @@ module.exports = {
           docId: 'introduction',
           position: 'left',
           label: 'Textbook',
+          to: '/',
         },
         {
           href: 'https://github.com/asadali7755/Physical-AI-Humanoid-Robotics-book',
@@ -66,7 +66,7 @@ module.exports = {
         {
           title: 'Textbook',
           items: [
-            { label: 'Introduction', to: '/introduction' },
+            { label: 'Introduction', to: '/' },
             { label: 'Foundations', to: '/chapter1' },
           ],
         },
