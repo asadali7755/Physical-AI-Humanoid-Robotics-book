@@ -27,7 +27,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/asadali7755/Physical-AI-Humanoid-Robotics-book/edit/main/',
-          routeBasePath: '/', // Back to the original to make docs root
+          routeBasePath: '/docs', // Changed from '/' to '/docs' to allow homepage at root
         },
         blog: false,
         theme: {
@@ -50,7 +50,7 @@ module.exports = {
           docId: 'introduction',
           position: 'left',
           label: 'Textbook',
-          to: '/',
+          to: '/docs',
         },
         {
           href: 'https://github.com/asadali7755/Physical-AI-Humanoid-Robotics-book',
@@ -66,8 +66,8 @@ module.exports = {
         {
           title: 'Textbook',
           items: [
-            { label: 'Introduction', to: '/' },
-            { label: 'Foundations', to: '/chapter1' },
+            { label: 'Introduction', to: '/docs' },
+            { label: 'Foundations', to: '/docs/chapter1' },
           ],
         },
         {
