@@ -1,5 +1,5 @@
 ---
-slug: /
+slug: /docs
 sidebar_position: 1
 ---
 

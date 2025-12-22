@@ -9,7 +9,7 @@ module.exports = {
   // 🔴 IMPORTANT: yahan apna Vercel project URL lagao
   url: 'https://ai-humanoid-robotics-book-mu.vercel.app',
   baseUrl: '/',
-  trailingSlash: true,
+  trailingSlash: undefined,
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
