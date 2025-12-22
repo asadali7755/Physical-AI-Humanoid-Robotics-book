@@ -1,0 +1,55 @@
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1a2a6c, #2a5298);
+  color: white;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introSection {
+  padding: 4rem 0;
+  background-color: var(--ifm-background-color);
+}
+
+.testimonialsSection {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+}
+
+.clientsSection {
+  padding: 4rem 0;
+  background-color: var(--ifm-background-color);
+  text-align: center;
+}
+
+.clientLogo {
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #eef2f7;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+@media screen and (max-width: 996px) {
+  .clientLogo {
+    margin-bottom: 1rem;
+  }
+}
