@@ -27,7 +27,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/asadali7755/Physical-AI-Humanoid-Robotics-book/edit/main/',
-          routeBasePath: '/docs', // Changed from '/' to '/docs' to allow homepage at root
+          routeBasePath: 'docs', // Use docs path for all documentation
         },
         blog: false,
         theme: {
