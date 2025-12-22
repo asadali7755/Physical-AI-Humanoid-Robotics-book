@@ -16,7 +16,7 @@ module.exports = {
       type: 'category',
       label: 'Physical AI & Humanoid Robotics Textbook',
       items: [
-        'introduction',
+        'index',
         {
           type: 'category',
           label: 'Foundations',
