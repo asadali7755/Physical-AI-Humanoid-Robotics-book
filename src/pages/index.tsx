@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -31,12 +32,18 @@ export default function Home(): JSX.Element {
       description="A Comprehensive Textbook on Physical AI and Humanoid Robotics">
       <HomepageHeader />
       <main>
-        <section className="padding-vert--xl">
+        <HomepageFeatures />
+        <section className="padding-vert--lg">
           <div className="container">
             <div className="row">
               <div className="col col--12 text--center">
-                <h2>Welcome to the Physical AI & Humanoid Robotics Textbook</h2>
-                <p>Your comprehensive guide to understanding and developing humanoid robots.</p>
+                <h2>About This Textbook</h2>
+                <p>
+                  This comprehensive textbook explores the fascinating intersection of artificial intelligence
+                  and physical systems, with a specific focus on humanoid robots and their applications.
+                  You'll gain both theoretical knowledge and practical implementation skills needed to
+                  understand and develop advanced humanoid robotic systems.
+                </p>
               </div>
             </div>
           </div>
