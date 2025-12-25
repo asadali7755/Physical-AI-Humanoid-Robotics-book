@@ -7,7 +7,7 @@ module.exports = {
   tagline: 'A Comprehensive Textbook on Physical AI and Humanoid Robotics',
 
   // 🔴 IMPORTANT: yahan apna Vercel project URL lagao
-  url: 'https://ai-humanoid-robotics-book-mu.vercel.app',
+  url: 'https://physical-ai-humanoid-robotics-book-taupe.vercel.app',
   baseUrl: '/',
   trailingSlash: undefined,
 
